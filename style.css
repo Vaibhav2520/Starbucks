@@ -49,9 +49,12 @@ header ul{
 	background-position: center;
 	background-repeat: no-repeat;
 	fill: invert(1);
+	z-index: 11;
 }
 
 .toggle.active{
+	position: fixed;
+	right: 20px;
 	background: url(close.png);
 	background-size: 25px;
 	background-position: center;
@@ -70,7 +73,7 @@ header ul.navigation.active{
 	flex-direction: column;
 	background: #fff;
 	z-index: 10;
-	
+
 }
 
 header ul li{
